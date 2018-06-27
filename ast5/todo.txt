@@ -1,0 +1,6 @@
+Todo 
+========================
+1.make two points moving 
+2.find collision between two points
+3.use keyboard key move
+4.make code functional

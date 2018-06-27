@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-wrapper{
+    margin-left: 600px;
+  }
+.slider-wrapper{
+    width: 640px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.image-wrapper{
+  width: 20000px;
+  height: 300px;
+}
+.image-wrapper img{
+  float: left;
+}

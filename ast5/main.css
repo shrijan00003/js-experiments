@@ -1,0 +1,28 @@
+/* var mainWrapper=document.getElementById("main-wrapper");
+mainWrapper.style.margin="0px auto";
+mainWrapper.style.width="500px";
+mainWrapper.style.height="500px";
+mainWrapper.style.background="lightblue";
+mainWrapper.style.position = "relative"; */
+*{
+    margin: 0px;
+    padding:0px;
+}
+#container{
+    /* margin: 0px auto; */
+    width: 800px;
+    height: 500px;
+    background-color:lightcoral;
+    position: relative;
+    border:10px solid gray;
+}
+.ball{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+}
+.blue{
+    background-color:blue;
+}
