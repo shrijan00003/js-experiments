@@ -17,7 +17,7 @@ class Game {
 
     this.handle = null;
 
-    this.goatReady = 5;
+    this.goatReady = 20;
 
     this.goatInCanvas = 0;
     this.isGoatLeft = true;

@@ -44,8 +44,12 @@ let propsGame = {
 
 game = new Game(propsGame);
 
-//for showing in the playground
-
+// for showing in the playground
+let goatEaten = game.getGoatEaten();
+if(goatEaten > 5 ){
+    isGameOver = true;
+    gameOverMsg = 'Game Over More than 5 Goat are eaten '
+}
 
 
 $canvas.addEventListener("mousedown", getPosition, false);
