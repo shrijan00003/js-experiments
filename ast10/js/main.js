@@ -45,11 +45,11 @@ let propsGame = {
 game = new Game(propsGame);
 
 // for showing in the playground
-let goatEaten = game.getGoatEaten();
-if(goatEaten > 5 ){
-    isGameOver = true;
-    gameOverMsg = 'Game Over More than 5 Goat are eaten '
-}
+// let goatEaten = game.getGoatEaten();
+// if(goatEaten > 5 ){
+//     isGameOver = true;
+//     gameOverMsg = 'Game Over More than 5 Goat are eaten '
+// }
 
 
 $canvas.addEventListener("mousedown", getPosition, false);
@@ -76,7 +76,7 @@ function getPosition(event) {
     
     
     // console.log("here");
-    if((goatAvailable >= 0 && goatAvailable <= 5 ) && isValidForGoat){
+    if((goatAvailable >= 0 && goatAvailable <= 20 ) && isValidForGoat){
             if(turn === 1){
                 let s = game.createGoat();
                 console.log(s);
