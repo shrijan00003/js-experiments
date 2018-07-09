@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+}
+
+.my-canvas{
+    /* margin: auto auto; */
+    /* width: 1000px; */
+    /* margin-left: 400px; */
+    /* background-color: blue; */
+    vertical-align: middle;
+}
